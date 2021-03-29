@@ -17,11 +17,16 @@ describe('calculateScore', () => {
           interceptions: 0
         },
         rushing: { attempts: 3, yards: 22, touchdowns: 1, fumbles: 0 }
+        
+
+        
       }
     }
 
-    const score = calculateScore(player)
-
+  
+    
+  const score = calculateScore(player)
+  
     expect(score).to.equal(40.72)
   })
 
